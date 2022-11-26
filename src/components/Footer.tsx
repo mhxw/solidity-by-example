@@ -12,69 +12,20 @@ function Footer() {
   return (
     <div className={styles.component}>
       <div className={styles.row}>
-        <img src={sce} alt="smart contract engineer" className={styles.sce} />
-        <a href="https://www.smartcontract.engineer" target="__blank">
-          Smart Contract Engineer
-        </a>
-      </div>
-      <div className={styles.social}>
-        <div className={styles.row}>
-          <img src={discord} alt="discord" className={styles.discord} />
-          <a href="https://discord.gg/bt8FK2wkcW" target="__blank">
-            Discord
-          </a>
-        </div>
-        <div className={styles.row}>
-          <img src={telegram} alt="telegram" className={styles.telegram} />
-          <a href="https://t.me/smartcontractprogrammer" target="__blank">
-            Telegram
-          </a>
-        </div>
-        <div className={styles.row}>
-          <img src={youTube} alt="youtube" className={styles.youTube} />
-          <a
-            href="https://www.youtube.com/channel/UCJWh7F3AFyQ_x01VKzr9eyA"
-            target="__blank"
-          >
-            YouTube
-          </a>
-        </div>
-      </div>
-      <div className={styles.row}>
-        Donate
-        <span role="img" aria-label="smiley">
-          🙂
-        </span>
-      </div>
-      <div className={styles.row}>
-        <a href={`https://etherscan.io/address/${ADDRESS}`} target="__blank">
-          {ADDRESS.slice(0, 6)}...{ADDRESS.slice(-6, -1)}
+        <a href="https://mhxw.life/eth-dev-with-go/" target="__blank">
+          用Go来做以太坊开发
         </a>
       </div>
       <div className={styles.row}>
-        your ETH will directly go to
-        <a href="https://khanacademy.org" target="__blank" className={styles.khan}>
-          Khan Academy
-        </a>
-      </div>
-      <div className={styles.row}>
-        <a href="mailto:contact@solidity-by-example.org">
-          contact@solidity-by-example.org
-        </a>
-      </div>
-      <div className={styles.row}>
-        <a
-          href="https://github.com/solidity-by-example/solidity-by-example.github.io"
-          target="__blank"
-        >
-          source
+        <a href="https://github.com/mhxw/solidity-by-example" target="__blank">
+          源码
         </a>
         <div className={styles.bar}>|</div>
         <a
-          href="https://github.com/solidity-by-example/solidity-by-example.github.io/blob/gh-pages/LICENSE"
+          href="https://github.com/mhxw/solidity-by-example/blob/dev/LICENSE"
           target="__blank"
         >
-          license
+          License
         </a>
       </div>
     </div>

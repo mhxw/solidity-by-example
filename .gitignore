@@ -29,3 +29,7 @@ memo.js
 memo
 crytic-export
 tmp
+
+.idea
+yarn.lock
+tool

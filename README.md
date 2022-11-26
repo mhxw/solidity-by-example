@@ -1,6 +1,6 @@
-# solidity-by-example.github.io
+# Solidity by Example 中文版
 
-[Solidity By Example](https://solidity-by-example.org)
+[Solidity By Example](http://mhxw.life/solidity-by-example/)
 
 ### License
 

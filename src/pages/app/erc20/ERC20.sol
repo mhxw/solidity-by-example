@@ -7,7 +7,7 @@ contract ERC20 is IERC20 {
     uint public totalSupply;
     mapping(address => uint) public balanceOf;
     mapping(address => mapping(address => uint)) public allowance;
-    string public name = "Solidity by Example";
+    string public name = "Solidity by Example 中文版";
     string public symbol = "SOLBYEX";
     uint8 public decimals = 18;
 

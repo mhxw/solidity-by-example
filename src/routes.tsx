@@ -81,6 +81,7 @@ import component_mapping from "./pages/mapping"
 import component_new_contract from "./pages/new-contract"
 import component_payable from "./pages/payable"
 import component_primitives from "./pages/primitives"
+import component_sec_solidity_security from "./pages/sec/solidity-security"
 import component_sending_ether from "./pages/sending-ether"
 import component_shadowing_inherited_state_variables from "./pages/shadowing-inherited-state-variables"
 import component_signature from "./pages/signature"
@@ -443,6 +444,10 @@ const routes: Route[] = [
   {
     path: "/primitives",
     component: component_primitives,
+  },
+  {
+    path: "/sec/solidity-security",
+    component: component_sec_solidity_security,
   },
   {
     path: "/sending-ether",

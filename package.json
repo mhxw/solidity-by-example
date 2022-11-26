@@ -2,7 +2,7 @@
   "name": "solidity-by-example",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://solidity-by-example.org",
+  "homepage": "https://mhxw.life/solidity-by-example/",
   "dependencies": {
     "highlight.js": "^11.7.0",
     "react": "^18.2.0",
